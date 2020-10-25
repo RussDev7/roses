@@ -1,4 +1,4 @@
-var text="I made this shitty site for you while on watch lolz. <br><br> Btw, you're the cutest 💖" // YOUR TEXT
+var text="I made this shitty site for you while on watch lolz. <br><br> Btw, you're the cutest 💖♡ ♥💕❤😘" // YOUR TEXT
 var speed=50 // SPEED OF FADE
 var size=10 // FONT SIZE
 
