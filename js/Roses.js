@@ -1,4 +1,4 @@
-var text="Heya <3. <br></br> Yeee." // YOUR TEXT
+var text="Hey There :D <br> You're the cutest <3" // YOUR TEXT
 var speed=50 // SPEED OF FADE
 var size=10 // FONT SIZE
 
