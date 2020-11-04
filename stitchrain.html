@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://happyhappyhardcore.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>stitch Rain <3</title>
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  background: linear-gradient(to right,lightblue,violet);
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+</style>
+
+<div id="overlay"></div>
+
+<h1 class="glow">LOVE YOU!</h1>
+
+<div class="footer">
+  <p>You're The Besssst <3333</p>
+</div>
+
+<script async="" src="js/analytics.js"></script><script language="JavaScript">
+var fallObjects=new Array();function newObject(url,height,width){fallObjects[fallObjects.length]=new Array(url,height,width);}
+
+var numObjs=120, waft=80, fallSpeed=22, wind=0;
+newObject("images/stitch_1.gif",29,27);
+newObject("images/stitch_2.gif",22,20);
+newObject("images/stitch_3.gif",15,15);
+newObject("images/stitch_4.gif",26,25);
+newObject("images/stitch_5.gif",23,23);
+newObject("images/stitch_6.gif",26,25);
+newObject("images/stitch_7.gif",32,33);
+newObject("images/stitch_8.gif",18,18);
+newObject("images/stitch_9.gif",31,33);
+newObject("images/stitch_10.gif",15,15);
+newObject("images/stitch_11.gif",30,30);
+newObject("images/stitch_12.gif",27,31);
+newObject("images/stitch_13.gif",22,20);
+newObject("images/stitch_14.gif",23,23);
+newObject("images/stitch_15.gif",26,25);
+newObject("images/stitch_16.gif",30,48);
+newObject("images/stitch_17.gif",28,27);
+newObject("images/stitch_18.gif",33,33);
+
+function winSize(){winWidth=(moz)?window.innerWidth:document.body.clientWidth;winHeight=(moz)?window.innerHeight:document.body.clientHeight;}
+function winOfy(){winOffset=(moz)?window.pageYOffset:document.body.scrollTop;}
+function fallObject(num,vari,nu){
+	objects[num]=new Array(parseInt(Math.random()*(winWidth-waft)),-10,(parseInt(Math.random()*waft))*((Math.random()>0.5)?1:-1),0.02+Math.random()/20,0,1+parseInt(Math.random()*fallSpeed),vari,fallObjects[vari][1],fallObjects[vari][2]);
+	if(nu==1){document.write('<img id="fO'+i+'" style="position:fixed;" src="'+fallObjects[vari][0]+'">'); }
+}
+
+function fall(){
+	for(i=0;i<numObjs;i++){
+var fallingObject=document.getElementById('fO'+i);
+		if((objects[i][1]>(winHeight-(objects[i][5]+objects[i][7])))||(objects[i][0]>(winWidth-(objects[i][2]+objects[i][8])))){fallObject(i,objects[i][6],0);}
+		objects[i][0]+=wind;objects[i][1]+=objects[i][5];objects[i][4]+=objects[i][3];
+		with(fallingObject.style){ top=objects[i][1]+winOffset+'px';left=objects[i][0]+(objects[i][2]*Math.cos(objects[i][4]))+'px';}
+	}
+	setTimeout("fall()",31);
+}
+
+var objects = new Array(),
+winOffset=0,
+winHeight,
+winWidth,
+togvis,
+moz=(document.getElementById&&!document.all)?1:0;winSize();
+
+for (i=0;i<numObjs;i++){fallObject(i,parseInt(Math.random()*fallObjects.length),1);}
+fall();
+
+if (!Function.prototype.bind){
+    Function.prototype.bind = function (bind){
+        var self = this;
+        return function(){
+            return self.apply(bind, arguments);
+        };
+    };
+}
+
+</script></head><body><img id="fO0" style="position: fixed; top: 220px; left: 1242.51px;" src="images/stitch_8.gif"><img id="fO1" style="position: fixed; top: 590px; left: 515.861px;" src="images/stitch_11.gif"><img id="fO2" style="position: fixed; top: 89px; left: 103.866px;" src="images/stitch_8.gif"><img id="fO3" style="position: fixed; top: 134px; left: 155.543px;" src="images/stitch_4.gif"><img id="fO4" style="position: fixed; top: 477px; left: 903.768px;" src="images/stitch_17.gif"><img id="fO5" style="position: fixed; top: 460px; left: 616.17px;" src="images/stitch_4.gif"><img id="fO6" style="position: fixed; top: 107px; left: 337.861px;" src="images/stitch_7.gif"><img id="fO7" style="position: fixed; top: 226px; left: 347.249px;" src="images/stitch_18.gif"><img id="fO8" style="position: fixed; top: 150px; left: 1083.6px;" src="images/stitch_15.gif"><img id="fO9" style="position: fixed; top: -8px; left: 1073.99px;" src="images/stitch_12.gif"><img id="fO10" style="position: fixed; top: 468px; left: 183.178px;" src="images/stitch_10.gif"><img id="fO11" style="position: fixed; top: 340px; left: 687.99px;" src="images/stitch_2.gif"><img id="fO12" style="position: fixed; top: 177px; left: 512.657px;" src="images/stitch_10.gif"><img id="fO13" style="position: fixed; top: 406px; left: 967.071px;" src="images/stitch_6.gif"><img id="fO14" style="position: fixed; top: 294px; left: 570.547px;" src="images/stitch_6.gif"><img id="fO15" style="position: fixed; top: 590px; left: 90.2666px;" src="images/stitch_1.gif"><img id="fO16" style="position: fixed; top: 92px; left: 114.344px;" src="images/stitch_9.gif"><img id="fO17" style="position: fixed; top: 2px; left: 881.156px;" src="images/stitch_17.gif"><img id="fO18" style="position: fixed; top: 368px; left: 570.721px;" src="images/stitch_2.gif"><img id="fO19" style="position: fixed; top: 185px; left: 186.599px;" src="images/stitch_18.gif"><img id="fO20" style="position: fixed; top: 399px; left: 884.815px;" src="images/stitch_16.gif"><img id="fO21" style="position: fixed; top: 379px; left: 856.908px;" src="images/stitch_8.gif"><img id="fO22" style="position: fixed; top: 177px; left: 194.002px;" src="images/stitch_18.gif"><img id="fO23" style="position: fixed; top: 134px; left: 798.915px;" src="images/stitch_18.gif"><img id="fO24" style="position: fixed; top: 466px; left: 629.817px;" src="images/stitch_14.gif"><img id="fO25" style="position: fixed; top: 570px; left: 781.234px;" src="images/stitch_17.gif"><img id="fO26" style="position: fixed; top: 395px; left: 829.83px;" src="images/stitch_7.gif"><img id="fO27" style="position: fixed; top: 659px; left: 1021.81px;" src="images/stitch_7.gif"><img id="fO28" style="position: fixed; top: 180px; left: 849.492px;" src="images/stitch_12.gif"><img id="fO29" style="position: fixed; top: 508px; left: 612.415px;" src="images/stitch_3.gif"><img id="fO30" style="position: fixed; top: 135px; left: 495.005px;" src="images/stitch_7.gif"><img id="fO31" style="position: fixed; top: 440px; left: 17.0669px;" src="images/stitch_14.gif"><img id="fO32" style="position: fixed; top: 300px; left: 735.29px;" src="images/stitch_1.gif"><img id="fO33" style="position: fixed; top: 221px; left: 218px;" src="images/stitch_16.gif"><img id="fO34" style="position: fixed; top: 332px; left: 1021.67px;" src="images/stitch_14.gif"><img id="fO35" style="position: fixed; top: 90px; left: 479.258px;" src="images/stitch_4.gif"><img id="fO36" style="position: fixed; top: 56px; left: 242.077px;" src="images/stitch_1.gif"><img id="fO37" style="position: fixed; top: 670px; left: 87.297px;" src="images/stitch_6.gif"><img id="fO38" style="position: fixed; top: 606px; left: 37.3953px;" src="images/stitch_7.gif"><img id="fO39" style="position: fixed; top: 82px; left: 1289.73px;" src="images/stitch_15.gif"><img id="fO40" style="position: fixed; top: 540px; left: 121.666px;" src="images/stitch_9.gif"><img id="fO41" style="position: fixed; top: 197px; left: 1144.31px;" src="images/stitch_1.gif"><img id="fO42" style="position: fixed; top: 135px; left: 824.776px;" src="images/stitch_1.gif"><img id="fO43" style="position: fixed; top: -8px; left: 1165.89px;" src="images/stitch_7.gif"><img id="fO44" style="position: fixed; top: 146px; left: 257.942px;" src="images/stitch_5.gif"><img id="fO45" style="position: fixed; top: 466px; left: 635.454px;" src="images/stitch_8.gif"><img id="fO46" style="position: fixed; top: 431px; left: 725.837px;" src="images/stitch_10.gif"><img id="fO47" style="position: fixed; top: 172px; left: 1081.46px;" src="images/stitch_17.gif"><img id="fO48" style="position: fixed; top: 470px; left: 40.4563px;" src="images/stitch_17.gif"><img id="fO49" style="position: fixed; top: 617px; left: 943.833px;" src="images/stitch_11.gif"><img id="fO50" style="position: fixed; top: 392px; left: 513.379px;" src="images/stitch_14.gif"><img id="fO51" style="position: fixed; top: 110px; left: 682.001px;" src="images/stitch_10.gif"><img id="fO52" style="position: fixed; top: 518px; left: 598.392px;" src="images/stitch_4.gif"><img id="fO53" style="position: fixed; top: 430px; left: 211.472px;" src="images/stitch_13.gif"><img id="fO54" style="position: fixed; top: 67px; left: 1263.13px;" src="images/stitch_10.gif"><img id="fO55" style="position: fixed; top: 435px; left: 315.288px;" src="images/stitch_18.gif"><img id="fO56" style="position: fixed; top: 589px; left: 50.6627px;" src="images/stitch_3.gif"><img id="fO57" style="position: fixed; top: 74px; left: 1291.6px;" src="images/stitch_16.gif"><img id="fO58" style="position: fixed; top: 17px; left: 707.447px;" src="images/stitch_2.gif"><img id="fO59" style="position: fixed; top: 258px; left: 995.246px;" src="images/stitch_16.gif"><img id="fO60" style="position: fixed; top: 74px; left: 966.447px;" src="images/stitch_11.gif"><img id="fO61" style="position: fixed; top: 28px; left: 734.56px;" src="images/stitch_13.gif"><img id="fO62" style="position: fixed; top: 521px; left: 698.991px;" src="images/stitch_14.gif"><img id="fO63" style="position: fixed; top: 126px; left: 1033.29px;" src="images/stitch_2.gif"><img id="fO64" style="position: fixed; top: 56px; left: 304.154px;" src="images/stitch_3.gif"><img id="fO65" style="position: fixed; top: 70px; left: 489.701px;" src="images/stitch_17.gif"><img id="fO66" style="position: fixed; top: 74px; left: 1247.37px;" src="images/stitch_6.gif"><img id="fO67" style="position: fixed; top: 676px; left: 553.931px;" src="images/stitch_6.gif"><img id="fO68" style="position: fixed; top: 304px; left: 973.813px;" src="images/stitch_2.gif"><img id="fO69" style="position: fixed; top: 228px; left: 1126.39px;" src="images/stitch_12.gif"><img id="fO70" style="position: fixed; top: 376px; left: 299.637px;" src="images/stitch_8.gif"><img id="fO71" style="position: fixed; top: 596px; left: 836.236px;" src="images/stitch_4.gif"><img id="fO72" style="position: fixed; top: 483px; left: 1205.34px;" src="images/stitch_3.gif"><img id="fO73" style="position: fixed; top: 495px; left: -13.751px;" src="images/stitch_4.gif"><img id="fO74" style="position: fixed; top: 566px; left: 119.307px;" src="images/stitch_12.gif"><img id="fO75" style="position: fixed; top: 215px; left: 992.039px;" src="images/stitch_14.gif"><img id="fO76" style="position: fixed; top: 500px; left: 889.761px;" src="images/stitch_9.gif"><img id="fO77" style="position: fixed; top: 228px; left: 86.5612px;" src="images/stitch_6.gif"><img id="fO78" style="position: fixed; top: 353px; left: 260.116px;" src="images/stitch_7.gif"><img id="fO79" style="position: fixed; top: 285px; left: 373.883px;" src="images/stitch_17.gif"><img id="fO80" style="position: fixed; top: 395px; left: 923.13px;" src="images/stitch_5.gif"><img id="fO81" style="position: fixed; top: 466px; left: 808.479px;" src="images/stitch_13.gif"><img id="fO82" style="position: fixed; top: 542px; left: 1274.09px;" src="images/stitch_11.gif"><img id="fO83" style="position: fixed; top: 550px; left: 715.516px;" src="images/stitch_12.gif"><img id="fO84" style="position: fixed; top: 551px; left: 491.859px;" src="images/stitch_16.gif"><img id="fO85" style="position: fixed; top: 450px; left: 772.01px;" src="images/stitch_5.gif"><img id="fO86" style="position: fixed; top: 414px; left: 487.041px;" src="images/stitch_14.gif"><img id="fO87" style="position: fixed; top: 502px; left: 301.927px;" src="images/stitch_4.gif"><img id="fO88" style="position: fixed; top: 228px; left: 395.948px;" src="images/stitch_9.gif"><img id="fO89" style="position: fixed; top: 644px; left: 1074.09px;" src="images/stitch_13.gif"><img id="fO90" style="position: fixed; top: -8px; left: 671.678px;" src="images/stitch_17.gif"><img id="fO91" style="position: fixed; top: 150px; left: 1138.22px;" src="images/stitch_15.gif"><img id="fO92" style="position: fixed; top: 213px; left: 361.176px;" src="images/stitch_5.gif"><img id="fO93" style="position: fixed; top: 592px; left: 494.588px;" src="images/stitch_11.gif"><img id="fO94" style="position: fixed; top: 262px; left: 517.346px;" src="images/stitch_11.gif"><img id="fO95" style="position: fixed; top: 296px; left: 302.249px;" src="images/stitch_12.gif"><img id="fO96" style="position: fixed; top: 496px; left: 1061.63px;" src="images/stitch_6.gif"><img id="fO97" style="position: fixed; top: 596px; left: 160.358px;" src="images/stitch_5.gif"><img id="fO98" style="position: fixed; top: 116px; left: 70.2168px;" src="images/stitch_13.gif"><img id="fO99" style="position: fixed; top: 498px; left: 473.643px;" src="images/stitch_16.gif"><img id="fO100" style="position: fixed; top: 454px; left: 938.661px;" src="images/stitch_13.gif"><img id="fO101" style="position: fixed; top: 94px; left: 355.248px;" src="images/stitch_12.gif"><img id="fO102" style="position: fixed; top: 521px; left: -3.27244px;" src="images/stitch_1.gif"><img id="fO103" style="position: fixed; top: 530px; left: 110.306px;" src="images/stitch_10.gif"><img id="fO104" style="position: fixed; top: 642px; left: 698.439px;" src="images/stitch_3.gif"><img id="fO105" style="position: fixed; top: 575px; left: 1227.09px;" src="images/stitch_12.gif"><img id="fO106" style="position: fixed; top: 92px; left: 1221.04px;" src="images/stitch_7.gif"><img id="fO107" style="position: fixed; top: 169px; left: 345.618px;" src="images/stitch_11.gif"><img id="fO108" style="position: fixed; top: 2px; left: 877.97px;" src="images/stitch_17.gif"><img id="fO109" style="position: fixed; top: 340px; left: 233.001px;" src="images/stitch_15.gif"><img id="fO110" style="position: fixed; top: 476px; left: 1250.7px;" src="images/stitch_11.gif"><img id="fO111" style="position: fixed; top: 158px; left: 1054.22px;" src="images/stitch_14.gif"><img id="fO112" style="position: fixed; top: 206px; left: 1198.81px;" src="images/stitch_8.gif"><img id="fO113" style="position: fixed; top: 440px; left: 43.4409px;" src="images/stitch_5.gif"><img id="fO114" style="position: fixed; top: 11px; left: 63.1051px;" src="images/stitch_4.gif"><img id="fO115" style="position: fixed; top: 340px; left: 965.714px;" src="images/stitch_15.gif"><img id="fO116" style="position: fixed; top: -8px; left: 206.999px;" src="images/stitch_10.gif"><img id="fO117" style="position: fixed; top: 90px; left: 1250.96px;" src="images/stitch_13.gif"><img id="fO118" style="position: fixed; top: 26px; left: 648.169px;" src="images/stitch_2.gif"><img id="fO119" style="position: fixed; top: 10px; left: 212.381px;" src="images/stitch_9.gif">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3300631-10', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body></html>
